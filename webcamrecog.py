@@ -106,8 +106,6 @@ def capture():
 
 			time.sleep(0.03)
 	
-	except KeyboardInterrupt:
-		print('Exited by user')
 
 	except Exception as e:
 		print(f'Exception: {e}')
